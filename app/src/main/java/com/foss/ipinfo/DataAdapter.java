@@ -32,7 +32,8 @@ public class DataAdapter extends RecyclerView.Adapter<DataAdapter.ViewHolder> {
     @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         Data mdata = data.get(i);
-        Log.v("key val ", mdata.key + " " + mdata.value);
+        Log.v("kiddo ", mdata.key + " " + mdata.value);
+
         viewHolder.keyTextView.setText(mdata.key);
         viewHolder.valueTextView.setText(mdata.value);
 

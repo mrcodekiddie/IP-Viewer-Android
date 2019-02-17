@@ -18,6 +18,7 @@ public class ServiceGenerator
                 .connectTimeout(timeOut,duration)
                 .readTimeout(timeOut,duration )
                 .writeTimeout(timeOut,duration)
+                .cache(null)
                 .build();
 
         Retrofit retrofit=new Retrofit.Builder()
